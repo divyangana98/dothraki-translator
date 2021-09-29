@@ -10,7 +10,7 @@ function getTranslationURL(text){
 
 function errorHandler(error){
     console.log("Error is "+error);
-    alert("Maximum limit of translation has been reached. Please try again after sometime.");
+    alert("Maximum limit of translation has been reached. There can be only 5 translations per hour. Please try again after sometime.");
 }
 
 function clickHandler(){
