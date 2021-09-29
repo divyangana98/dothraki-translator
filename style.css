@@ -10,7 +10,6 @@ body{
     font-family: 'Special Elite', cursive;
     margin:0rem;
     background-color: #D5CFE8;
-    /* background-color: var(--background-color); */
 }
 
 .heading {
@@ -35,8 +34,8 @@ textarea{
     height:20vh;
     padding:1rem;
     background-color:var(--background-color);
-   display: block;
-   margin-bottom: 1rem;
+    display: block;
+    margin-bottom: 1rem;
 
 }
 
@@ -62,17 +61,6 @@ textarea{
     background-color: black;
 }
 
-#output {
-    border:2px solid black;
-    
-    width:50%;
-    height:20vh;
-    padding:1rem;
-    display:block;
-    margin:auto;
-    overflow:scroll;
-    background-color: var(--background-color);
-}
 
 .footer{
     background-color: var(--primary-color);
